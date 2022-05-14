@@ -1,0 +1,183 @@
+body{
+    background: rgb(54, 5, 54);
+    text-align: center;
+}
+
+
+.fila{
+    width: 80%;
+    max-width: 1200px;
+    height: 600px;
+    border:  2px solid #590212;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+     /*justify-content : center;
+    align-items: center;*/
+}
+
+.fila .cont-btn{
+    width: 45%;
+    height: 83.5%;
+    background: #f28907;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.fila .cont-btn h2{
+
+    color: #a60311;
+    font-size:  50px;
+
+}
+
+.fila .cont-btn button{
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-size:  22px;
+    border: 2px solid #F20525;
+    margin:  10px 14px;
+    transition: .5s;
+    border-radius:  10px;
+    cursor: pointer;
+    background: #024059;
+    
+}
+
+.fila .cont-btn button:hover{
+    color: #590212;
+    transition: .5s;
+    border: 2px;
+    background: rgba(5, 34, 194, 0.658);
+
+
+}
+
+
+
+
+
+.fila .cont-fig{
+    width: 45%;
+    height: 83.5%;
+    background: black;
+    text-align: center;
+    padding: 50px 30px;
+    
+}
+
+
+
+
+.fila .cont-fig h2{
+
+    color: brown;
+    font-size: 50px;  
+}
+
+.fila .cont-fig #figura{
+    background: mediumslateblue;
+    border-style: groove;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    transition: .5s;
+}
+
+.menu{
+    color: #0401cf;
+    border: 2px solid black;
+    transition: .5s;
+    background: #2e01cf;
+    cursor: pointer;
+    position: absolute;
+    align-items: center;
+
+}
+
+#figura.circulo{
+    background: purple;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    
+    
+}
+
+.fila .cont-fig #figura.arriba{
+    transform: translateY(-50px);
+    background: red;
+}
+
+.fila .cont-fig #figura.abajo{
+    transform: translateY(50px);
+    background: purple;
+}
+
+.fila .cont-fig #figura.derecha{
+    transform: translateX(80px);
+    background: rgb(182, 89, 2);
+}
+
+.fila .cont-fig #figura.izquierda{
+    transform: translateX(-80px);
+    background: purple;
+}
+
+.fila .cont-fig #figura.DGarriba{
+    transform:  translate(-50px , -80px);
+    background: maroon;
+    border: rgb(124, 13, 124) solid;
+}
+
+.fila .cont-fig #figura.DGabajo{
+    transform:  translate(50px , 80px);
+    background: maroon;
+    border: rgb(124, 13, 124) solid;
+}
+
+.fila .cont-fig #figura.imagen{
+    background: url(../img/descarga.jpg);
+    transform: rotate(360deg);
+    border: red solid;
+}
+
+.fila .cont-fig #figura.rombo{
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(167, 24, 24);
+    background: #2e01cf;
+    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    -ms-transform: rotate(45deg) skew(15deg, 15deg);
+    -o-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) skew(15deg, 15deg);
+}
+
+.fila .cont-fig #figura.tri{
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #f0ad4e;
+    border-top: 50px solid ;
+    border-bottom: 50px solid ; 
+}
+
+.fila .cont-fig #figura.recH{
+    background: rgb(13, 3, 66);
+    border-style: groove;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    transition: .5s;
+}
+
+.fila .cont-fig #figura.recV{
+    background: mediumslateblue;
+    border-style: groove;
+    width: 100px;
+    height: 300px;
+    margin: 0 auto;
+    transition: .5s;
+}
+
+

@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+    background: black;
+}
+.fila {
+    width: 80%;
+    max-width: 1200px;
+    border: 5px green solid;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+.fila #FORMULARIO {
+    align-items: center;
+    background: rgb(173, 111, 111);
+    width: 50%;
+    padding: 30px;
+    
+}
+
+.fila #FORMULARIO label{
+    display: block;
+    font-size: 24px;
+    color: yellow;
+    font-weight: 200;
+    margin-top: 20px;
+    padding-left: 100px;
+    text-align: left;
+    
+
+}
+
+.fila #FORMULARIO input{
+    width: 300px;
+    padding: 8PX 15px;
+    font-size: 24px;
+    border: 1px solid rgb(223, 91, 91);
+    float: center;
+}
+
+.fila #FORMULARIO select{
+    width: 400px;
+    padding: 8PX 15px;
+    font-size: 24px;
+    border: 1PX solid rgb(223, 91, 91);
+    float: center;
+
+}
+
+.fila #FORMULARIO textarea{
+    width: 300px;
+    padding: 8PX 15px;
+    font-size: 24px;
+    border: 1px solid rgb(223, 91, 91);
+}
+
+.fila #FORMULARIO button{
+    background: red;
+    color: purple;
+    width: 9px;
+    padding: 10PX 30px;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.fila #FORMULARIO button:hover{
+    color: aquamarine;
+    width: 15px;
+    padding: 18PX 50px;
+    border: 15px;
+    text-align: center;
+
+}
+
+.fila #card-avatar{
+    background-color: blueviolet;
+    width: 40%;
+    padding: 180px;
+    text-align: center;
+    min-height: 500px;
+    
+}
+
+.fila #card-avatar img{
+    width: 100px;
+    float: center;
+}
+
+.fila #card-avatar h2{
+    float: center;
+    text-align: center;
+
+}
+
+.fila #card-avatar p b{
+    align-items: center;
+}
+
+.menu{
+    background: red;
+    width: 25px;
+    height: 30px;
+    color: blueviolet;
+    align-self: flex-start;
+    float: center;
+    border: 20px;
+    font-size: medium;
+    border: 20px;
+    
+
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="uft-8">
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>datos-avatar</title>
+        <link rel="stylesheet" href="css/avatr-style.css">        
+    </head>
+
+    <body>
+        <div class="fila">
+            <div id="FORMULARIO">
+                <H2>INFORMACION AVATAR</H2>
+                   
+                       <label for="#">nombres</label>
+                       <input type="text" id="cNombre" placeholder="ejemplo:danien R">
+                       <br>
+                       <label for="#">edad</label>
+                       <input type="number" id="cEdad" placeholder="ejem:22">
+                       <br>
+                       <label for="#">fecha de nacimiento</label>
+                       <input type="date"  id="cFechadenacimiento">
+                       <br>
+                       <label for="#">genero</label>
+                       <select type="text" id="cGenero">
+
+                        <option value="">seleccion</option>
+                       <option value="masculino">masculino</option>
+                       <option value="femenino">femenino</option>
+                       <option value="otro">otro</option>
+                       
+                       </select>
+                       <br>
+
+                       <label for="#">email</label>
+                       <input type="email" id="cEmail" placeholder="@misena.com">
+                       <br>
+                       <label for="#">descripcion</label>
+                       <textarea type="text"  id="cDescripcion" cols="30" rows="5"></textarea>
+                       <br>
+                       <label for="#">color</label>
+                       <select type="#" id="cColor">
+
+                       <option value="">seleccion</option>
+                       <option value="rojo">rojo</option>
+                       <option value="amarillo">amarillo</option>
+                       <option value="azul">azul</option>
+                       
+                       </select>
+                       <br>
+
+
+                       <button onclick="capDatos()">enviar</button>
+
+                   
+            </div>
+            <div id="card-avatar">
+                <H2>AVATAR</H2>
+                <img id="foto" src="img/avatar(2).png" alt="avatra por defecto">
+                <p><b>nombres</b></p>
+                <p id="mNombre"></p>
+                <p><b>edad</b></p>
+                <p id="mEdad"></p>
+                <p><b>fecha de nacimiento</b></p>
+                <p id="mFechadenacimiento"></p>
+                <p><b>genero</b></p>
+                <p id="mGenero"></p>
+                <p><b>email</b></p>
+                <p id="mEmail"></p>
+                <p><b>descripcion</b></p>
+                <p id="mDescripcion"></p>
+                <p><b>Color</b></p>
+                <p id="mColor"></p>
+            </div>      
+        </div>
+
+        <a class="menu" href="index.html">actividad figura</a>
+        <script src="js/funtions.js"></script>
+    </body>
+</html>
